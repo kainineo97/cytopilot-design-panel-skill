@@ -1,0 +1,20 @@
+{
+  "instruments": [
+    {
+      "id": "synthetic-three-laser",
+      "name": "Synthetic Conventional Cytometer",
+      "detectors": [
+        {"name": "D405-1", "laser_nm": 405, "filter": "450/50", "fluorophores": ["BV421"]},
+        {"name": "D488-1", "laser_nm": 488, "filter": "530/30", "fluorophores": ["FITC"]},
+        {"name": "D488-2", "laser_nm": 488, "filter": "575/25", "fluorophores": ["PE"]},
+        {"name": "D640-1", "laser_nm": 640, "filter": "660/20", "fluorophores": ["APC"]}
+      ]
+    }
+  ],
+  "reagents": [
+    {"id": "synthetic-a-pe", "name": "Synthetic Marker-A PE", "type": "antibody", "marker": "Marker-A", "aliases": [], "fluorophore": "PE", "detector": "D488-2", "clone": "SYN-A1", "reactivity": "Human", "species": "Human", "brand": "Synthetic", "catalog_no": "SYN-001", "review_status": "verified"},
+    {"id": "synthetic-a-bv421", "name": "Synthetic Marker-A BV421", "type": "antibody", "marker": "Marker-A", "aliases": [], "fluorophore": "BV421", "detector": "D405-1", "clone": "SYN-A1", "reactivity": "Human", "species": "Human", "brand": "Synthetic", "catalog_no": "SYN-002", "review_status": "verified"},
+    {"id": "synthetic-b-fitc", "name": "Synthetic Marker-B FITC", "type": "antibody", "marker": "Marker-B", "aliases": [], "fluorophore": "FITC", "detector": "D488-1", "clone": "SYN-B1", "reactivity": "Human", "species": "Human", "brand": "Synthetic", "catalog_no": "SYN-003", "review_status": "verified"},
+    {"id": "synthetic-c-apc", "name": "Synthetic Marker-C APC", "type": "antibody", "marker": "Marker-C", "aliases": [], "fluorophore": "APC", "detector": "D640-1", "clone": "SYN-C1", "reactivity": "Human", "species": "Human", "brand": "Synthetic", "catalog_no": "SYN-004", "review_status": "verified"}
+  ]
+}

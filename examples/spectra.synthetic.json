@@ -1,0 +1,8 @@
+{
+  "spectra": [
+    {"name": "BV421", "ex": 405, "em": 421, "em_width": 35},
+    {"name": "FITC", "ex": 488, "em": 519, "em_width": 40},
+    {"name": "PE", "ex": 488, "em": 578, "em_width": 45},
+    {"name": "APC", "ex": 640, "em": 660, "em_width": 35}
+  ]
+}

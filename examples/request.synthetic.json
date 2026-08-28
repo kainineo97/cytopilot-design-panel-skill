@@ -1,0 +1,11 @@
+{
+  "instrument_id": "synthetic-three-laser",
+  "species": "Human",
+  "markers": [
+    {"name": "Marker-A", "expression": "dim", "critical": true, "coexpress_with": ["Marker-B"]},
+    {"name": "Marker-B", "expression": "bright"},
+    {"name": "Marker-C", "expression": "medium"}
+  ],
+  "include_unverified": false,
+  "max_states": 10000
+}

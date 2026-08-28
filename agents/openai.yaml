@@ -1,0 +1,4 @@
+interface:
+  display_name: "CytoPilot Panel 设计"
+  short_description: "基于抗体库、仪器光路和光谱风险设计流式 Panel"
+  default_prompt: "Use $cytopilot-design-panel to design a verified flow-cytometry antibody panel from the CytoPilot catalog and flag compensation-risk pairs."
