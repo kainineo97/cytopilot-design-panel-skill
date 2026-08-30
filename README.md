@@ -4,6 +4,10 @@ An MIT-licensed Codex skill for designing and reviewing conventional flow-cytome
 
 The repository contains the complete skill, a standard-library-only ranking script, synthetic examples, and smoke tests. It does **not** contain a real laboratory inventory, manufacturer catalog export, empirical spillover matrix, or patient/sample data.
 
+## Interactive demo
+
+Explore the [sanitized CytoPilot interface demo](https://cytopilot-cloudflare-pages-demo.pages.dev/) to see how panel design is presented within the broader CytoPilot application. The demo preserves the product interface and page navigation for illustration, but uses synthetic content and does not design panels, query inventories, submit data, generate results, or connect to the CytoPilot backend. It is intended solely as a non-functional product preview; the panel-design skill in this repository remains an independently installable component.
+
 ## Install as a Codex skill
 
 Copy or clone this repository into your Codex skills directory so that `SKILL.md` is at the skill root. Restart or refresh Codex skill discovery if needed.
